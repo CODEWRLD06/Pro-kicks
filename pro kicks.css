@@ -1,0 +1,181 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0;
+    /* font-family: sans-serif; */
+    width: 100%;
+    
+}
+header{
+   background-color: rgb(25, 25, 26);
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 20px 5%;
+   position: fixed;
+   margin: 0;
+   z-index: 6;
+   width: 100%;
+   
+}
+
+
+
+.banner{
+    position: relative;
+}
+.banner img{
+    max-width: 100%;
+    width: 100%;
+}
+.logo{
+    color: white;
+    font-size: 30px;
+}
+nav ul{
+    display: flex;
+}
+
+nav ul li{
+    list-style-type: none;
+}
+
+
+nav ul li a {
+    font-size: 20px;
+    color: white;
+    text-decoration: none;
+    padding: 0 20px;
+    transition: all .2s ease;
+    
+}
+
+nav a:hover{
+    color: gray;
+}
+
+.edd{
+    color: white;
+    text-decoration: none;
+    text-transform: capitalize;
+    background-color: rgba(241, 235, 226, 0.555);
+    padding: 20px 20px;
+    border-radius: 10vh;
+}
+
+.nav{
+    background-color: black;
+    padding: 30px;
+    margin: 0px;
+    position: relative;
+    bottom: 140px;
+    align-items: center;
+}
+
+
+.nav ul{
+    display: flex;
+    /* white-space: nowrap; */
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav li{
+    width: 25%;
+    /* display: inline-block; */
+    font-size: 24px;
+    text-align: center;
+    text-decoration: none;
+}
+.nav li:hover{
+    color: gray;
+}
+.nav li a{
+    color: white;
+}
+
+article{
+    padding: 20px;
+    position: relative;
+    bottom: 150px;
+}
+h2 {
+    font-size: 40px;
+    margin: 0;
+}
+p{
+    font-size: 20px;
+    line-height: 2em;
+}
+h3{
+    font-size: 40px;
+}
+.images{
+    max-width: 2000px;
+}
+.images ul{
+    display: flex;
+    list-style-type: none;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;;
+    
+}
+
+.images li {
+    width: 300px;
+    height: 510px;
+    background-color: rgb(25, 25, 26);
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    
+}
+
+.images li p {
+    font-size: 25px;
+    text-align: center;
+    text-wrap: wrap;
+    font-weight: 200;
+    line-height: 45px;
+    margin-top: 20px;
+}
+
+.price {
+    margin-top: 50px;
+    font-weight: 500;
+}
+
+
+.x {
+    width: 280px;
+    height: 280px;
+    border: 1px solid black;
+    margin-top: 1px;  
+} 
+
+.x:hover {
+    position: relative;
+    top: -4px;
+}
+
+nav ul li a:hover{
+    text-decoration: underline;    
+}
+
+.edd:hover{
+    text-decoration: underline;
+}
+
+footer{
+    background-color: black;
+    text-align: center;
+    color: white;
+    padding: 10px;
+}
